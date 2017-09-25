@@ -25,7 +25,7 @@ import org.springframework.transaction.support.DefaultTransactionDefinition;
  */
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(classes={SystemTestConfig.class})
+@ContextConfiguration(classes={SystemTestRequiresNewConfig.class})
 public class RewardNetworkPropagationTests {
 
 	/**
