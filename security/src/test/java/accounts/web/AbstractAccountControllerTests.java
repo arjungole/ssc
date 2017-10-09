@@ -28,7 +28,7 @@ import accounts.AccountManager;
 public abstract class AbstractAccountControllerTests {
 
 	private static final long VALID_ACCOUNT_ID = 0L;
-	private static final long ILLEGAL_ACCOUNT_ID = 10101L;
+	private static final long ILLEGAL_ACCOUNT_ID = 1010L;
 
 	@Autowired
 	protected AccountController controller;
